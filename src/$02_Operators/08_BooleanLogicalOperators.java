@@ -1,6 +1,6 @@
 package $02_Operators;
 
-class LogicalOperators {
+class BooleanLogicalOperators {
     public static void main(String[] args) {
 
         boolean x = true;
