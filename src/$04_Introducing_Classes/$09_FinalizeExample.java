@@ -18,7 +18,9 @@ class DemoFinalize {
 class FinalizeExample {
     public static void main(String[] args) {
         // Create objects
+        @SuppressWarnings("unused")
         DemoFinalize obj1 = new DemoFinalize("Object1");
+         @SuppressWarnings("unused")
         DemoFinalize obj2 = new DemoFinalize("Object2");
 
         // Make objects eligible for garbage collection
