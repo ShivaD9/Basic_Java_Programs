@@ -9,10 +9,10 @@ class Box5 {
     double depth;
 
     // Constructor to initialize dimensions
-    Box5(double w, double h, double d) {
-        width = w;
-        height = h;
-        depth = d;
+    Box5() {
+        width = -1;
+        height = -1;
+        depth = -1;
     }
 
     // Method to calculate volume
@@ -25,8 +25,8 @@ class SimpleConstructor {
     public static void main(String[] args) {
 
         // Creating Box objects using constructor
-        Box5 mybox1 = new Box5(5, 10, 3);
-        Box5 mybox2 = new Box5(2, 4, 6);
+        Box5 mybox1 = new Box5();
+        Box5 mybox2 = new Box5();
 
         // Printing volumes
         System.out.println("Volume of Box 1: " + mybox1.calculateVolume());

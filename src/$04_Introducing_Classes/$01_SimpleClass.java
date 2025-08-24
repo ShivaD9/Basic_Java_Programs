@@ -1,7 +1,7 @@
 package $04_Introducing_Classes;
 
 // A simple Box class
-class Box2 {
+class Box1 {
     double width;
     double height;
     double depth;
@@ -12,7 +12,7 @@ class SimpleClass {
     public static void main(String[] args) {
 
         // Create an object of Box
-        Box2 myBox = new Box2();
+        Box1 myBox = new Box1();
         double volume;
 
         // Assign values

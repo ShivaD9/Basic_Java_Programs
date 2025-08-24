@@ -5,13 +5,13 @@ class BlockScopeExample {
     public static void main(String[] args) {
 
         int x = 10; // Variable in main method scope
-        System.out.println("Outside block: x = " + x);
+        System.out.println("Outside block : Value of x = " + x);
 
         {
             // This is a new block
             int y = 20; // y exists only inside this block
-            System.out.println("Inside block: x = " + x); // can access x
-            System.out.println("Inside block: y = " + y); // y is accessible here
+            System.out.println("Inside block : Value of x = " + x); // can access x
+            System.out.println("Inside block : Value of y = " + y); // y is accessible here
         }
 
         // y is NOT accessible here
